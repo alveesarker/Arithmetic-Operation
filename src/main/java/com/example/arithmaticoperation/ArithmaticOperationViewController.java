@@ -64,6 +64,16 @@ public class ArithmaticOperationViewController
 
     @javafx.fxml.FXML
     public void divButtonOnMouseClicked(Event event) {
+        String str1 = nOneTextField.getText();
+        String str2 = nTwoTextField.getText();
 
+        int valOne = Integer.parseInt(str1);
+        int valTwo = Integer.parseInt(str2);
+
+        int sum = valOne / valTwo;
+
+        String result = Integer.toString(sum);
+
+        resultText.setText(result);
     }
 }

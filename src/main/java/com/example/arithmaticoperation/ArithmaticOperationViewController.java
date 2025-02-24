@@ -40,9 +40,9 @@ public class ArithmaticOperationViewController
         int valOne = Integer.parseInt(str1);
         int valTwo = Integer.parseInt(str2);
 
-        int sum = valOne * valTwo;
+        int mul = valOne * valTwo;
 
-        String result = Integer.toString(sum);
+        String result = Integer.toString(mul);
 
         resultText.setText(result);
     }
@@ -55,9 +55,9 @@ public class ArithmaticOperationViewController
         int valOne = Integer.parseInt(str1);
         int valTwo = Integer.parseInt(str2);
 
-        int sum = valOne - valTwo;
+        int sub = valOne - valTwo;
 
-        String result = Integer.toString(sum);
+        String result = Integer.toString(sub);
 
         resultText.setText(result);
     }
@@ -70,9 +70,9 @@ public class ArithmaticOperationViewController
         int valOne = Integer.parseInt(str1);
         int valTwo = Integer.parseInt(str2);
 
-        int sum = valOne / valTwo;
+        float div = (float) valOne / valTwo;
 
-        String result = Integer.toString(sum);
+        String result = Float.toString(div);
 
         resultText.setText(result);
     }
